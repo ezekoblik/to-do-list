@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>TO-DO List</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo">
+        <h1>Agregá tareas a tu lista</h1>
+      </div>
+      <form action="" class="formulario">
+        <input type="text" placeholder="Añadir tarea" id="input" class="entrada"/>
+        <button class="boton" id="btn">+</button>
+      </form>
+      <div class="aviso-pendiente" id="aviso">
+        <p>No hay tareas pendientes</p>
+      </div>
+      <div class="contenedor-lista">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
